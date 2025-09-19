@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "th">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link rel = "stylesheet" href = "mystyle.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class = "header">
+        <nav>
+            <h1 class = "BakerieS">BakerieS</h1>
+            <div class = "nav-links">
+                <ul>
+                    <li><a href = "index.html">BakerieS</a></li>
+                    <li><a href = "index.html">Menu</a></li>
+                    <li><a href = "#contact">Contract</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id = "about" class = "about">
+        <h2>꧁ Cakes In Bakeries꧂</h2>
+    </section>
+
+    <!-- รายการสินค้า -->
+<section id="products1" class="products1">
+    <div class="product-grid">
+
+        <div class="product1">
+            <img src="resources/Strawberry Pie.png" alt="พายสตรอว์เบอร์รี่">
+            <div class="product-details">
+                <a href="https://www.bbcgoodfood.com/recipes/collection/fruit-pie-recipes" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Strawberry Pie</h3>
+                <p>พายสตรอว์เบอร์รี่ อบใหม่ จากสตรอว์เบอรร์รี่สด</p>
+                <p class="price">250 บาท</p>
+            </div>
+        </div>
+
+        <div class="product1">
+            <img src="resources/Chocolate Pie.png" alt="พายช็อคโกแลต">
+            <div class="product-details">
+                <a href="https://www.barleyandsage.com/chocolate-peanut-butter-pie/" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Chocolate Pie</h3>
+                <p>พายช็อคโกแลต หอมน่าทาน ทำจากช็อคโกแลตแท้</p>
+                <p class="price">210 บาท</p>
+            </div>
+        </div>
+
+        <div class="product1">
+            <img src="resources/Blueberry Pie.png" alt="พาบบลูเบอร์รี่">
+            <div class="product-details">
+                <a href="https://sallysbakingaddiction.com/best-blueberry-pie/" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Blueberry Pie</h3>
+                <p>พาบบลูเบอร์รี่ ทำจากบลูเบอร์รี่สด หอมน่าทาน</p>
+                <p class="price">260 บาท</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ฟุตเตอร์ -->
+    <footer id="contact">
+        <h2>Contract</h2>
+        <hr>
+        <p>📍 ทียูแมนชั่น ซอยนันทพร ตำบลคลองหนึ่ง อำเภอคลองหลวง ปทุมธานี 12120</p>
+        <p>📞 Tel : 097-356-9745</p>
+        <p>📧 bakerieS@gmail.com</p>
+        <p>&copy; 2025 BakerieS</p>
+    </footer>
+</body>
+</html>
