@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "th">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link rel = "stylesheet" href = "mystyle.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class = "header">
+        <nav>
+            <h1 class = "BakerieS">BakerieS</h1>
+            <div class = "nav-links">
+                <ul>
+                    <li><a href = "index.html">BakerieS</a></li>
+                    <li><a href = "index.html">Menu</a></li>
+                    <li><a href = "#contact">Contract</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id = "about" class = "about">
+        <h2>꧁ Cakes In Bakeries꧂</h2>
+    </section>
+
+    <!-- รายการสินค้า -->
+<section id="products1" class="products1">
+    <div class="product-grid">
+
+        <div class="product1">
+            <img src="resources/strawberry cake.png" alt="เค้กสตรอว์เบอร์รี่ครีมสด">
+            <div class="product-details">
+                <a href="https://pastrybysaloni.com/strawberry-cake/" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Strawberry Cake</h3>
+                <p>เค้กสตรอว์เบอร์รี่ หวานกำลังดี มีรสชาติของสตรอว์เบอร์รี่ และ ตกแต่งด้วยสตรอวเบอร์รี่สด</p>
+                <p class="price">250 บาท</p>
+            </div>
+        </div>
+
+        <div class="product1">
+            <img src="resources/Chocolate Cake.png" alt="เค้กช็อคโกแลต">
+            <div class="product-details">
+                <a href="https://www.foodandwine.com/recipes/moms-chocolate-cake" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Chocolate Cake</h3>
+                <p>เค้กช็อคโกแลต ที่เต็มไปด้วยช็อคโกแลตสอดใส้ อย่างเต็มที่</p>
+                <p class="price">240 บาท</p>
+            </div>
+        </div>
+
+        <div class="product1">
+            <img src="resources/coconut cake.jpg" alt="เค้กมะพร้าว">
+            <div class="product-details">
+                <a href="https://thescranline.com/fluffy-coconut-cake/" 
+                   target="_blank" rel="noopener noreferrer" class="source-link">ที่มาของภาพ</a> 
+                <h3>Coconut Cake</h3>
+                <p>เค้กมะพร้าวสด ที่มีกลิ่นหอมจากมะพร้าวสด พร้อมกับรสชาติที่หวานกำลังดี</p>
+                <p class="price">250 บาท</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ฟุตเตอร์ -->
+    <footer id="contact">
+        <h2>Contract</h2>
+        <hr>
+        <p>📍 ทียูแมนชั่น ซอยนันทพร ตำบลคลองหนึ่ง อำเภอคลองหลวง ปทุมธานี 12120</p>
+        <p>📞 Tel : 097-356-9745</p>
+        <p>📧 bakerieS@gmail.com</p>
+        <p>&copy; 2025 BakerieS</p>
+    </footer>
+</body>
+</html>
